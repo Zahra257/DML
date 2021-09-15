@@ -1,0 +1,8 @@
+INSERT INTO Product(Product_id, Product_Name, Category, Price) values('P01', 'Samsung Galaxy S20', 'Smartphone', 3299);
+INSERT INTO Product(Product_id, Product_Name, Category, Price) values('P02', 'ASUS NoteBook', 'PC', 4599);
+
+insert into Customer(Customer_id, Customer_Name, Customer_Tel) values('C01', 'Ali', 71321009);
+insert into Customer(Customer_id, Customer_Name, Customer_Tel) values('C02', 'Asma', 77345823);
+
+insert into Orders(Customer_id, Product_id, OrderDate, Quantity, Total_amount) values('C01', 'P02', Null, 2, 9198);
+insert into Orders(Customer_id, Product_id, OrderDate, Quantity, Total_amount) values('C02', 'P01', '28/05/2020', 1, 3299);
